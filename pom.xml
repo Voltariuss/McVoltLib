@@ -4,26 +4,30 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>fr.voltariuss.minecraft.lib</groupId>
-    <artifactId>mc-volt-api</artifactId>
+    <groupId>fr.voltariuss.minecraft</groupId>
+    <artifactId>mcvoltlib</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <name>McVoltAPI</name>
     <description>Library for Minecraft API (Bukkit, BungeeCord, Forge, ...)</description>
 
     <licenses>
-        <license>
-            <name>GNU GENERAL PUBLIC LICENSE, Version 3</name>
-            <url>https://www.gnu.org/licenses/gpl-3.0.html</url>
-        </license>
+      <license>
+        <name>MIT</name>
+        <url>https://opensource.org/licenses/mit-license.php</url>
+      </license>
     </licenses>
+  
     <developers>
-        <developer>
-            <id>Voltariuss</id>
-            <name>Loïc Dubois-Termoz</name>
-            <email>loic.duboistermoz@gmail.com</email>
-            <timezone>Europe/Paris</timezone>
-        </developer>
+      <developer>
+        <id>Voltariuss</id>
+        <name>Loïc DUBOIS-TERMOZ</name>
+        <email>loic.duboistermoz@gmail.com</email>
+        <roles>
+          <role>Developer</role>
+        </roles>
+        <timezone>Europe/Paris</timezone>
+      </developer>
     </developers>
 
     <repositories>
@@ -43,7 +47,7 @@
     </dependencies>
 
     <build>
-        <sourceDirectory>${project.basedir}/src/</sourceDirectory>
+        <sourceDirectory>${project.basedir}/src/main/java/</sourceDirectory>
         <directory>${project.basedir}/target/</directory>
         <plugins>
             <plugin>
